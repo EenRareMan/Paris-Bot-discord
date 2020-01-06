@@ -1,0 +1,25 @@
+{
+  "name": "goede_server_bot",
+  "version": "1.0.0",
+  "description": "een bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "keywords": [
+    "yt",
+    "bot"
+  ],
+  "author": "Nils",
+  "license": "ISC",
+  "dependencies": {
+    "discord-anti-spam": "^2.3.4",
+    "discord.js": "^11.5.1",
+    "opusscript": "0.0.7",
+    "ytdl-core": "^1.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
